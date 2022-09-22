@@ -1,6 +1,7 @@
 import { openDB } from 'idb';
 
 export const initdb = async () => {
+  console.log("running initdb")
   openDB('jate_db', 1, {
     upgrade(db) {
       if (db.objectStoreNames.contains('jate')) {
