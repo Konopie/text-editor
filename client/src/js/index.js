@@ -39,6 +39,6 @@ if ('serviceWorker' in navigator) {
 })};
 
 window.addEventListener('load', function () {
-  initdb();
+  initdb().then(getDb())
   document.getElementById('logo').src = Logo;
 });

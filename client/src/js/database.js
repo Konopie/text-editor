@@ -1,4 +1,5 @@
 import { openDB } from 'idb';
+import 'regenerator-runtime/runtime';
 
 export const initdb = async () => {
   console.log("running initdb")
@@ -19,7 +20,7 @@ export const putDb = async (content) => {
 
   const jate = await openDB('jate_db', 1);
 
-  const tx = jate.transaction('jate_db', 'readwrite');
+  const tx = jate.transaction('jate', 'readwrite');
 
   const store = tx.objectStore('jate');
   
@@ -36,7 +37,7 @@ export const getDb = async () => {
   const jate = await openDB('jate_db', 1);
 
   // Create a new transaction and specify the database and data privileges.
-  const tx = jate.transaction('jate_db', 'readonly');
+  const tx = jate.transaction('jate', 'readonly');
 
   // Open up the desired object store.
   const store = tx.objectStore('jate');
@@ -50,4 +51,4 @@ export const getDb = async () => {
   return result;
 };
 
-initdb();
+// initdb();
