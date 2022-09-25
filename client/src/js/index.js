@@ -32,6 +32,7 @@ if (typeof editor === 'undefined') {
 // } else {
 //   console.error('Service workers are not supported in this browser.');
 // }
+
 if ('serviceWorker' in navigator) {
   // Use the window load event to keep the page load performant
   window.addEventListener('load', () => {
@@ -39,6 +40,5 @@ if ('serviceWorker' in navigator) {
 })};
 
 window.addEventListener('load', function () {
-  initdb().then(getDb())
   document.getElementById('logo').src = Logo;
 });
