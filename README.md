@@ -16,7 +16,7 @@
   In browser or on desktop
   <br><br>
   
-GitHub: Konopie
+GitHub: Konopie <br>
 email: codycooper06@gmail.com
 
 Deployed website: https://konopies-text-editor.herokuapp.com/
