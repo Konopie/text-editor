@@ -13,7 +13,9 @@
   Install button at the top of page
 <br><br>
 ##Usage <br>
-  In browser or on desktop
+  In browser or on desktop <br> 
+  Once page loads, anything you type will be save and be reloaded. <br> 
+  Install button at top of page downloads app to desktop
   <br><br>
   
 GitHub: Konopie <br>
