@@ -19,3 +19,4 @@
 GitHub: Konopie
 email: codycooper06@gmail.com
   
+![Screenshot of text editor](https://user-images.githubusercontent.com/99047158/200736812-e1e58e5f-0241-47df-bc39-352c701eaec2.png)
